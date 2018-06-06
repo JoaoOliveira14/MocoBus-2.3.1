@@ -18,11 +18,16 @@ var app = new Framework7({
     },
          {
       path: '/pontos/',
-      url: 'paginas/paradas.html',
+      url: 'paginas/pontos.html',
     },
          {
       path: '/info/',
       url: 'paginas/info.html',
+    },
+      
+               {
+      path: '/pesquisa/',
+      url: 'paginas/pesquisa.html',
     },
       
           // linhas de ônibus
@@ -75,6 +80,7 @@ var mainView = app.views.create('.view-main');
 
 
 
+var searchbar = app.searchbar.enable('.searchbar-expandable');
 
 
 
